@@ -1,54 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div class="footer">
-        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/393967750_208250358955716_3100960765745213866_n.png?stp=dst-png_p206x206&_nc_cat=109&ccb=1-7&_nc_sid=510075&_nc_ohc=6Viy5msa0-0AX8eXOGN&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_e2o=f&oh=03_AdTPu8OO4TBzIGqtjs5o2SaySgej8j8RR-PZHVeAIFPA7Q&oe=655C8A05">
-        <p>Treat with the best intention of each being at your heart. Surrender to the cause of serving. Life is not what we take, but what we leave behind while serving humanity</p>
-        <div class="footer-left">
-            <h1>Useful Links</h1>
-            <ul>
-                <li>Careers</li>
-                <li>Services</li>
-                <li>Our Clinic</li>
-                <li>Our Team</li>
-                <li>Contact Us</li>
-                <li>Patient Portal</li>
-                <li>Book an Appointment</li>
-            </ul> 
-        </div>
-        <div class="footer-center1">
-            <h1>Our Locations</h1>
-            <p>1120 Sparkleberry Lane Ext.,
-                Columbia, SC 29223
-                Phone: (803) 851-0605
-                Fax: 866-291-3617</p>
-            <p>2076 Woodruff Road,
-                Greenville, SC 29607
-                Phone: (864) 373-7246
-                Fax: 866-291-3617</p>
-            <p>2076 Woodruff Road,
-                Greenville, SC 29607
-                Phone: (864) 373-7246
-                Fax: 866-291-3617</p>
-            <p>129 S. Broad St. Clinton,
-                SC 29325
-                Phone: (864) 547-1245</p>            
-        </div>
-        <div class="footer-center2">
-           <footer>
-               <span>© 2023 - WeCare Primary & Urgent Care</span>
-           </footer>
-        </div>
-        <div class="footer-right">
+    <script src="zara.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"
+      integrity="sha512-lzilC+JFd6YV8+vQRNRtU7DOqv5Sa9Esk53lXt/k91HZTJpytHS1L6l1mMKR9K6VVoDt4LiEXaa6XBrYk1YhGTQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="content.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="menu" id="menu">
+      <div class="menu-content">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li>
+            <a href=""
+              >SERVICES <i class="bx bx-chevron-down"></i>
+              <div class="services">
+                <ul class="services-1">
+                  <li><a href="">URGENT CARE</a></li>
+                  <li><a href="">PRIMARY CARE</a></li>
+                  <li><a href="">INJURIES</a></li>
+                  <li><a href="">ILLNESSES</a></li>
+                  <li><a href="">IMMUNIZATIONS</a></li>
+                </ul>
+                <ul class="services-2">
+                  <li><a href="">PHYSICALS</a></li>
+                  <li><a href=""> OCCUPATIONAL HEALTH</a></li>
+                  <li><a href="">WOMENS SERVICES</a></li>
+                  <li><a href="">DOT PHYSICALS</a></li>
+                  <li><a href="">TRAVEL SERVICES</a></li>
+                </ul>
+              </div>
+            </a>
+          </li>
+          <li><a href="">INSURANCE & SELF-PAY</a></li>
+          <li><a href="">PROVIDERS</a></li>
+          <li><a href="">LOCATION</a></li>
+          <li><a href="">CONTACT</a></li>
+          <li><a href="">BLOG</a></li>
+          <li>
+            <a href=""><i class="bx bxl-facebook-circle"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="bx bxl-instagram"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="bx bx-search"></i></a>
+          </li>
+          <li><button>MAKE AN APPOINTMENT</button></li>
+        </ul>
+      </div>
+    </section>
+    <section class="header">
+      <div class="header-logo">
+        <a href=""><img src="img/Logo.png" alt="" /></a>
+      </div>
 
+      <div class="header-phone">
+        <i class="bx bx-phone-call"></i>
+        <p>0 (803) 851-0605</p>
+      </div>
+      <div class="header-time">
+        <i class="bx bx-stopwatch"></i>
+        <p>
+          Monday-Friday: 8:00AM-8:00PM <br />
+          Saturday-Sunday: 9:00AM-5:00PM
+        </p>
+      </div>
+      <div class="header-location">
+        <i class="bx bx-location-plus"></i>
+        <p>
+          1120 Sparkleberry Ext. Rd, <br />
+          Suite A, Columbia, SC
+        </p>
+      </div>
+    </section>
+    <section class="main">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="img/bg1.jpg" style="width: 100%" />
+          <div class="text-main">
+            <div class="text">
+              <h1>Professional Medical Services</h1>
+              <br />
+              <p>
+                Professional and Compassionate Medical Services That Prioritize
+                Your Health
+              </p>
+              <br />
+              <button>PATIENT PORTAL</button>
+            </div>
+          </div>
         </div>
-    </div>
 
+        <div class="mySlides fade">
+          <img src="img/bg2.jpg" style="width: 100%" />
+          <div class="text-main">
+            <div class="text">
+              <h1>Immediate Heath Attention</h1>
+              <br />
+              <p>Reliable Medical Care for Your Immediate Heath Needs</p>
+              <br />
+              <button>MORE ABOUT US</button>
+            </div>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <img src="img/bg3.jpg" style="width: 100%" />
+          <div class="text-main">
+            <div class="text">
+              <h1>Effective Emergency Help</h1>
+              <br />
+              <p>
+                Rapid and Effective Emergency Asisstance to Ensure Your
+                Well-being
+              </p>
+              <br />
+              <button>MAKE AN APPOINTMENT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="professional">
+      <div class="professional-left">
+        <a href=""><img src="img/icon2.png" style="width: 50px" alt="" /></a>
+        <h3>Emergency Medical Care</h3>
+        <br />
+        <p>
+          We have special equipment to give emergency help<br />
+          if/when necessary.
+        </p>
+      </div>
+      <div class="professional-center">
+        <a href=""><img src="img/icon1.jpg" style="width: 40px" alt="" /></a>
+        <h3>Professional Team</h3>
+        <br />
+        <p>
+          A Dedicated Team of Medical Professionals, Committed<br />to Your
+          Health and Well-being.
+        </p>
+      </div>
+      <div class="professional-right">
+        <a href=""><img src="img/icon3.png" style="width: 40px" alt="" /></a>
+        <h3>Modern Medical Devices</h3>
+        <p>
+          Professional equipment and laboratory are always at<br />
+          your service!
+        </p>
+      </div>
+    </section>
+    <section class="welcome">
+      <div class="welcome-left">
+        <h5>Welcome</h5>
 
-</body>
+        <h4><span>ZaRa</span> is a progressive medical clinic</h4>
+        <p>
+          ZaRa epitomizes progressive medical care, blending tradition with
+          innovation. Discover a forward-thinking approach to healthcare at
+          ZaRa, where your well-being comes first. Experience the future of
+          medical excellence with ZaRa, your trusted partner in health. ZaRa is
+          your gateway to modern healthcare solutions, ensuring your journey to
+          wellness. Elevate your health journey with ZaRa, a symbol of
+          cutting-edge medical care.
+        </p>
+        <button>MORE ABOUT US</button>
+      </div>
+      <div class="slider">
+        <div class="slider-img">
+          <input type="radio" name="inputslider" id="img1" />
+          <input type="radio" name="inputslider" id="img2" />
+          <input type="radio" name="inputslider" id="img3" />
+          <input type="radio" name="inputslider" id="img4" />
+
+          <img src="img/nến thơm.jpg" alt="img1" class="imgslider1" />
+
+          <img
+            src="img/tinh-dau-oai-huong-banner.png"
+            alt="img2"
+            class="imgslider2"
+          />
+          <img src="img/masage1.jpg" alt="img3" class="imgslider3" />
+          <img
+            src="img/massagee 2.jpg"
+            alt="img4"
+            style="width: 450px"
+            class="imgslider4"
+          />
+        </div>
+        <div class="labelslider">
+          <label for="img1"></label>
+          <label for="img2"></label>
+          <label for="img3"></label>
+          <label for="img4"></label>
+        </div>
+      </div>
+    </section>
+    <section class="provide">
+      <div class="provide-up">
+        <h4>What We Do</h4>
+        <h5>Services We Provide</h5>
+        <p>
+          Health care is the maintenance or improvement of health via the
+          diagnosis, <br />
+          treatment, and prevention of disease, illness, injury etc.
+        </p>
+      </div>
+      <div class="provide-down">
+        <div class="provide-down1">
+          <a href=""><img src="img/ser1.jpg" alt="" /></a>
+          <h6>Urgent Care</h6>
+          <p>
+            Affordable, physician-based healthcare at ZaRa. <br />
+            Accepting all insurances. Lower costs, same quality. <br />
+            Urgent Care you can trust.
+          </p>
+        </div>
+        <div class="provide-down1">
+          <a href=""><img src="img/ser2.jpg" alt="" /></a>
+          <h6>Primary Care</h6>
+          <p>
+            Comprehensive care at ZaRa. Preventive, primary, <br />
+            and urgent services. Expert referrals for specialty care. <br />
+            Trust our dedicated providers.
+          </p>
+        </div>
+        <div class="provide-down1">
+          <a href=""><img src="img/ser9.png" alt="" /></a>
+          <h6>Immunizations</h6>
+          <p>
+            ZaRa offers many recommended routine <br />
+            immunizations, including those required for enrollment <br />
+            in public schools.
+          </p>
+        </div>
+        <div class="provide-down1">
+          <a href=""><img src="img/ser4.png" alt="" /></a>
+          <h6>Illnesses</h6>
+          <p>
+            Efficient medical service, walk-ins welcome. Open 7 <br />days a
+            week, no appointment needed. Always a <br />provider available.
+          </p>
+        </div>
+        <div class="provide-down1">
+          <a href=""><img src="img/ser5.jpg" alt="" /></a>
+          <h6>Injuries</h6>
+          <p>
+            On-site injury care & Digital X-Rays for chest,<br />
+            abdomen, spine, and extremities. Fast and efficient <br />
+            service.
+          </p>
+        </div>
+        <div class="provide-down1">
+          <a href=""><img src="img/ser10.png" alt="" /></a>
+          <h6>Physical</h6>
+          <p>
+            Walk-in physical exams for all ages. Annual wellness, <br />
+            sports physicals, and more. Convenient and reliable <br />
+            service.
+          </p>
+        </div>
+      </div>
+      <button>ALL SERVICES</button>
+    </section>
+    <section class="choose">
+      <div class="choose-left">
+        <img src="img/Choose.jpg" alt="" />
+      </div>
+      <div class="choose-right">
+        <h5>Why Us</h5>
+        <h6>Why Choose ZaRa?</h6>
+        <ul>
+          <li>Your one-stop Family & Urgent Care</li>
+          <li>Wait Time is minimal</li>
+          <li>Walk-Ins are welcome, No Appointment Needed</li>
+          <li>Easy & flexible online Appointment Booking</li>
+          <li>Convenient Hours (Mon.-Fri: 8am-8pm; Sat. & Sun: 9am-5pm</li>
+          <li>
+            On-site X-Rays, EKG, and labs (COVID, Flu, Strep, RSV, Urinalysis,
+            <br />
+            Pregnancy and more)
+          </li>
+          <li>Most Insurance Accepted</li>
+          <li>Affordable Self-Pay Options</li>
+        </ul>
+        <table>
+          <tr>
+            <th>3,000</th>
+            <th>50</th>
+            <th>15</th>
+            <th>100</th>
+          </tr>
+          <tr>
+            <td>Patients a <br> Year</td>
+            <td>People <br> Working</td>
+            <td>Years of <br>Experience</td>
+            <td>Satisfied <br>Patients</td>
+          </tr>
+        </table>
+        <button>MORE ABOUT OUR CLINIC</button>
+      </div>
+
+    </section>
+    <section class="book">
+      <div class="book1">
+        <h1>Standard Visit</h1>
+        <h2><span>$</span>100</h2>
+        <i class='bx bx-check-circle'></i><p>Office Visit with provider</p>
+        <i class='bx bx-check-circle'></i><p> Evaluation & Prescription</p>
+        <i class='bx bx-check-circle'></i><p> Review Care Plan</p>
+        <button>BOOK NOW</button>
+      </div>
+      <div class="book1">
+        <h1>Premium Visit</h1>
+        <h2><span>$</span>130</h2>
+        <i class='bx bx-check-circle'></i><p>Standard Visit Package</p>
+        <i class='bx bx-check-circle'></i><p> COVID-19 Testing</p>
+        <i class='bx bx-check-circle'></i> <p>In-house labs</p>
+        <i class='bx bx-check-circle'></i> <p>One X-Ray Exam</p>
+        <i class='bx bx-check-circle'></i> <p>Injectable medication</p>
+        <button>BOOK NOW</button>
+      </div>
+      <div class="book1">
+        <h1>Procedural Visit</h1>
+        <h2><span>$</span>180</h2>
+        <i class='bx bx-check-circle'></i><p>Abscess Drainage</p>
+        <i class='bx bx-check-circle'></i><p> Laceration Repair</p>
+        <i class='bx bx-check-circle'></i><p> Nail Removal</p>
+        <i class='bx bx-check-circle'></i> <p> Foreign body removal</p>
+        <i class='bx bx-check-circle'></i> <p>Fractures / dislocation</p>
+        <i class='bx bx-check-circle'></i> <p> EKG</p>
+        <button>BOOK NOW</button>
+      </div>
+      <div class="book1">
+        <h1>Comprehensive Visit</h1>
+        <h2><span>$</span>225</h2>
+        <i class='bx bx-check-circle'></i><p>Office Visit with provider</p>
+        <i class='bx bx-check-circle'></i> <p>Up to two X-Ray Exam</p>
+        <i class='bx bx-check-circle'></i> <p> IV Fluids</p>
+        <i class='bx bx-check-circle'></i> <p> Injectable medications</p>
+        
+        <i class='bx bx-check-circle'></i> <p> EKG</p>
+        <button>BOOK NOW</button>
+      </div>
+    </section>
+  </body>
 </html>
